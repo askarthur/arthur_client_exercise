@@ -2,9 +2,9 @@
 
 ## Welcome!
 
-Thanks for your time and interest in joining Arthur. The purpose of this exercise is to inform a constructive discusion of your programming style and techniques in React Native. Hopefully, it also shows how we think about engineering and product development at Arthur.
+Thanks for your time and interest in joining Arthur. The purpose of this exercise is to inform a constructive discussion of your programming style and techniques in React Native. Hopefully, it also shows how we think about engineering and product development at Arthur.
 
-We hope that you can complete this exercise in roughly **two hours or less**. It's not a hard limit, but we don't want you spending too much of your time when we see that the point of the exercise is to kick-off a healthy discission.
+We hope that you can complete this exercise in roughly **two hours or less**. It's not a hard limit, but we don't want you spending too much of your time when we see that the point of the exercise is to kick-off a healthy discussion.
 
 ## The Exercise
 
