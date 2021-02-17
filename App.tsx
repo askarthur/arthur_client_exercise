@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-/**
- * Returns a batch of Random Artworks from the database
- * qty - the quantity or limit of works to return, defaults to 1
- *
- * curl -X GET "https://art.askarthur.co/v1/random_works?qty=1" -H  "accept: application/json"
- */
-const REQUEST_URL = `https://art.askarthur.co/v1/random_works?qty=1`;
+import { IWork } from "./types";
+import getRandomWorks from "./getRandomWorks";
 
 export default function App() {
+  useEffect(() => {
+    // Use the provided endpoint
+    getRandomWorks()
+      .then((data: IWork[]) => {
+        // It will return the data directly on successful responses
+        // I've added very loose typings, so that data[0].title will autocomplete for you
+        console.info(data);
+      })
+      .catch((err) => {
+        console.warn("Network request failed", err);
+      });
+  }, []);
+
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Open README.md to get started.</Text>
+      <Text style={styles.text}>
+        Review README.md {"\n"} Then view your console
+      </Text>
     </View>
   );
 }

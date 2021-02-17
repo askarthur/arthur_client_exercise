@@ -41,7 +41,7 @@ We recommend focusing on either UX improvements or a specific optimization you'd
 
 ## Getting Started
 
-Requires the Expo CLI
+Requires the Expo CLI and a React Native development environment
 
 ```
 npm install --global expo-cli
@@ -50,5 +50,6 @@ npm install --global expo-cli
 Start
 
 ```
+yarn install
 yarn start
 ```
