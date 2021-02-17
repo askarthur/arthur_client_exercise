@@ -20,7 +20,7 @@ We'd like your help implementing the first iteration of this feature to the spec
 Testable criteria
 
 - The app should indicate it is loading
-- The app should show a random artwork (it's title, image, artist name, and dateText fields)
+- The app should show a random artwork (its title, image, artist name, and dateText fields)
 - The user can view another random artwork
 - The user can save the current artwork
 - The app should show a count of the users saved artworks
@@ -30,7 +30,7 @@ Interaction design
 
 We've kept the interaction and visual design open ended. But we think a card stack swiper or a snap-to scroll interaction would improve the speed of browsing for the user.
 
-### Evalution
+### Evaluation
 
 We're expecting a functional prototype that achieves the testable criteria above. It's most important for the code to be easily debuggable, runs cross-platform, and avoids re-rendering:
 
